@@ -38,8 +38,18 @@
     <connection>scm:git:git://github.com/mjanicek/rembulan.git</connection>
     <url>https://github.com/mjanicek/rembulan/tree/master</url>
   </scm>
+  
+  <build>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <testSourceDirectory>src/main/test</testSourceDirectory> 
+  </build>      
 
   <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
   </dependencies>
 
 </project>
